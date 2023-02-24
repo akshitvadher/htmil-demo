@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+
+    <form action="">
+
+        <label for="en number"> Enrollment number :</label>
+        <input type="number" name="en number" required placeholder="##">
+        <br><br>
+        <label for="pw">Password :</label>
+        <input type="password" name="pw" required placeholder="****">
+        <br><br>
+        <label for="name"> Name :</label>
+        <input type="text" name="name" id="name" required placeholder="First Middele Last">
+        <br><br>
+        <label for="email">Email :</label>
+        <input type="email" name="email" id="email" required placeholder="@gmail.com">
+        <br><br>
+        <fieldset>
+        <legend>Department : </legend>
+        <input type="radio" name="dep" id="dep" required> BCA
+        <input type="radio" name="dep" id="dep" required> BSC IT
+        </fieldset>
+        <br>
+        <label for="year">Year :</label>
+        <select name="year" id="year">
+            <option value="1st Year">1st Year Student</option>
+            <option value="2nd Year">2nd Year Student</option>
+            <option value="3rd Year">3rd Year Student</option>
+        </select>
+        <br><br>
+        <label for="hcolor">House color :</label>
+        <input type="color">
+        <br><br>
+        <label for="attendes">Attendes :</label>
+        <input type="range" name="attendes" id="attendes">
+        <br><br>
+        <label for="photo id">Enter your Photo ID :</label>
+        <input type="file" accept="image/*">
+        <br><br>
+        <label for="file">Add your Resume :</label>
+        <input type="file" name="file" id="file">
+        <br><br>
+        <label for="url">Add your URL :</label>
+        <input type="url" name="url" id="url" placeholder="www.google.com">
+        <br><br>
+        <label for="join">Why do you want to join :</label>
+        <textarea name="join" id="join" cols="70" rows="8" placeholder="I want to join ..."></textarea>
+        <br><br>
+        <label for="dt">Date of joining :</label>
+        <input type="date" name="dt" id="dt">
+        <br><br><hr>
+        <input type="submit" value="submit"> <input type="reset" value="reset">
+    </form>
+</body>
+</html>
